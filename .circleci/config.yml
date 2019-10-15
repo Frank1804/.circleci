@@ -18,6 +18,7 @@ jobs:
       - run:
           name: Greeting
           command: echo Hello, world. Top file
+          command: echo Only supposed to blow the bloody doors off!
 
       - run:
           name: Print the Current Time
