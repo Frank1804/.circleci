@@ -19,6 +19,6 @@ jobs:
           name: Greeting
           command: echo Hello, world. Only supposed to blow the bloody doors off!
 
-- run:
+      - run:
           name: Print the Current Time
           command: date
