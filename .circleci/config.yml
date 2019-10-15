@@ -17,9 +17,8 @@ jobs:
 
       - run:
           name: Greeting
-          command: echo Hello, world. Top file
-          command: echo Only supposed to blow the bloody doors off!
+          command: echo Hello, world. Only supposed to blow the bloody doors off!
 
-      - run:
+- run:
           name: Print the Current Time
           command: date
